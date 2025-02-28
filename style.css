@@ -1,0 +1,261 @@
+/* New styles for added elements */
+
+/* Hero section styles */
+.hero {
+    background: url('hero-background.jpg') no-repeat center center/cover;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.hero button {
+    font-size: 1em;
+    padding: 15px 30px;
+}
+
+/* About section styles */
+.about {
+    background-color: #2c2c2c;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.1em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Contact form styles */
+.contact-form {
+    background-color: #1f1f1f;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #2c2c2c;
+    color: #ffffff;
+}
+
+.contact-form button {
+    width: 100%;
+    font-size: 1.2em;
+}
+
+/* Testimonials section styles */
+.testimonials {
+    background-color: #2c2c2c;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.testimonial-item {
+    background-color: #1f1f1f;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-item p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.testimonial-item h3 {
+    font-size: 1.3em;
+    margin-top: 0;
+}
+/* Main page layout */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+header, main, footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Portfolio specific styles */
+.portfolio-item {
+    background-color: #1f1f1f;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.portfolio-item h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.portfolio-item p {
+    margin-bottom: 0;
+}
+
+/* Footer styles */
+footer {
+    background-color: #1f1f1f;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+/* Navbar styles */
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+nav ul li.dropdown {
+    display: inline-block;
+}
+
+nav ul li.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+nav ul li.dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+}
+
+nav ul li.dropdown .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+nav ul li.dropdown .dropdown-content a:hover {
+    background-color: #575757;
+}
+/* Base styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header {
+    background-color: #1f1f1f;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Responsive layout */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+@media (min-width: 600px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container > div {
+        flex: 1;
+        margin: 10px;
+    }
+}
+
+/* Dark theme specific styles */
+a {
+    color: #bb86fc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #bb86fc;
+    color: #121212;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3700b3;
+}
